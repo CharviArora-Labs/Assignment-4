@@ -61,7 +61,10 @@ result = Appointments::Create.new(
 Expected output:
 
 { success: true, appointment: #<Appointment ...> }
+```
+
 Attempt an overlapping appointment
+```bash
 result2 = Appointments::Create.new(
   doctor: doctor,
   start_time: Time.parse("2026-03-01 10:30"),
