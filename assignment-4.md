@@ -256,9 +256,9 @@ Notice:
 
 ---
 
-## 7. Why Rails Console Shows Output (Your Case)
+## 7. Why Rails Console Shows Output 
 
-### You Ran:
+### We Ran:
 
 ```ruby
 result = Appointments::Create.new(
@@ -303,17 +303,6 @@ This proves:
 
 ---
 
-## 8. What This Assignment Is Teaching You
-
-After completing this:
-
-✔ You understand MVC
-✔ You know **what belongs in controllers vs services**
-✔ You can design testable business logic
-✔ You can explain Rails architecture in interviews
-
----
-
 ## Final Mental Model
 
 ```
@@ -321,6 +310,7 @@ Controller = HTTP + orchestration
 Service    = business rules
 Model      = data + relations
 ```
+
 
 
 
