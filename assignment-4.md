@@ -112,7 +112,7 @@ Problems:
 
 ---
 
-## 4. How Services Fit Into *Your* Assignment
+## 4. How Services Fit Into Assignment
 
 ### Your Flow
 
@@ -321,6 +321,7 @@ Controller = HTTP + orchestration
 Service    = business rules
 Model      = data + relations
 ```
+
 
 
 
