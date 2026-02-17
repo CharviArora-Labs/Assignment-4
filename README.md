@@ -28,7 +28,7 @@ The goal of this assignment is to demonstrate a working Rails application that u
 ### 1. Install dependencies
 
 ```bash
-bundle install
+rails new app
 ```
 
 2. Setup the database
