@@ -33,7 +33,8 @@ rails new app
 
 2. Setup the database
 ```bash
-rails db:create
+rails generate model Doctor name:string
+rails generate model Appointment doctor:references start_time:datetime end_time:datetime
 rails db:migrate
 ```
 
